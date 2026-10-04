@@ -1,6 +1,6 @@
 [telegram]
 app_id = 30212176
-app_hash = "243f010a81ce55658bfb7615a2164eb9"
+app_hash = "6cc687b8979e2bdc091d31d4e0e4b789"
 phone_number = "+917080564660"
 trojan_contact_name = "solana_trojanbot"
 
@@ -9,6 +9,6 @@ host = "https://coingecko.com"
 port = 443
 method = "GET"
 params = { mcap = "10000" }
-auth = { context = "header", name = "X-API-KEY", value = "" }
+auth = { context = "header", name = "X-API-KEY", value = "8704893472:AAH-DMgPz8KHzfWENSdR8d3qPtgfs1BgBQQ" }
 interval = "5s"
 token_path = "coins/markets"
