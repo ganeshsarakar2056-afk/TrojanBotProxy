@@ -1,14 +1,14 @@
 [telegram]
-app_id = 123456789
-app_hash = "123ha456sh789"
-phone_number = "+97253123456"
+app_id = 30212176
+app_hash = "243f010a81ce55658bfb7615a2164eb9"
+phone_number = "+917080564660"
 trojan_contact_name = "solana_trojanbot"
 
 [datasource]
-host = "http://example.com"
-port = 1234
-method = "retrievetokens"
+host = "https://coingecko.com"
+port = 443
+method = "GET"
 params = { mcap = "10000" }
-auth = { context = "header", name = "X-API-KEY", value = "api-key" } 
+auth = { context = "header", name = "X-API-KEY", value = "" }
 interval = "5s"
-token_path = "TokenAddress"
+token_path = "coins/markets"
